@@ -13,37 +13,30 @@ public class Account {
     }
 
     private int getId() {
-
         return id;
     }
 
     private void setId(int id) {
-
         this.id = id;
     }
 
     public String getName() {
-
         return name;
     }
 
     public void setName(String n) {
-
         this.name = n;
     }
 
     public double getCash() {
-
         return cash;
     }
 
     public void put(double v) {
-
         this.cash += v;
     }
 
     public void saq(double v) {
-
         this.cash -= (v + 5);
     }
 
